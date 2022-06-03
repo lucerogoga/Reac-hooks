@@ -1,7 +1,7 @@
 // styles.sass
 @use 'Index';
 
-.Header {
+.Dark {
     background-color: Index.$primary-color;
     color: white;
     padding: 1rem;
@@ -18,5 +18,24 @@
         padding: 1rem;
         background-color: Index.$primary-color;
         color: greenyellow;
+    }
+  }
+  .Light{
+    background-color: greenyellow;
+    color: grey;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        margin: 1rem;
+        color: grey; 
+    }
+    button {
+        border:1px solid grey;
+        padding: 1rem;
+        background-color: greenyellow;
+        color: grey;
     }
   }

@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="Header">
+    <div className={`${darkMode ? "Dark" : "Light"}`}>
       <h1>ReactHooks</h1>
       <button type="button" onClick={handleClick}>
         {darkMode ? "Dark Mode" : "Light Mode"}
