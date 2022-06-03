@@ -1,0 +1,19 @@
+// styles.sass
+@use 'Index';
+
+.Characters {
+    background-color: Index.$primary-color;
+    color: white;
+    height: 100%;
+    padding: 1rem;
+    .card-container{
+        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
+        background-color: Index.$secundary-color;
+    }
+    h2 {
+        margin:0;
+        color: greenyellow; 
+    }
+  }

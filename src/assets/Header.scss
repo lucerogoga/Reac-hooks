@@ -1,0 +1,22 @@
+// styles.sass
+@use 'Index';
+
+.Header {
+    background-color: Index.$primary-color;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        margin: 1rem;
+        color: greenyellow; 
+    }
+    button {
+        border:1px solid greenyellow;
+        padding: 1rem;
+        background-color: Index.$primary-color;
+        color: greenyellow;
+    }
+  }

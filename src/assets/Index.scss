@@ -1,0 +1,17 @@
+// Index.scss
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$secundary-color: #445673;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root{
+  font: 100% $font-stack;
+  height: 100%;
+}

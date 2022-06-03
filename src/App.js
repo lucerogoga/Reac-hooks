@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Header from "./components/Header";
-
+import Header from "./componnts/Header";
+import Characters from "./componnts/Characters";
+import "./assets/Index.scss";
 function App() {
   return (
     <div className="App">
       <Header />
+      <Characters />
     </div>
   );
 }

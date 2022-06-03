@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../assets/Header.scss";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
